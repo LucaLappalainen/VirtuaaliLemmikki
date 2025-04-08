@@ -1,12 +1,11 @@
 "use client"
 import { useEffect } from "react";
 
-
 export default function Home() {
 
 useEffect(() => {
     const script = document.createElement("script")
-    script.src = "Build\demopeliUusi.loader.js",
+    script.src = "Build\VirtuaaliLemmikki1.0.loader.js",
     script.async = true,
 
     document.body.appendChild(script);
